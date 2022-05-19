@@ -11,3 +11,9 @@ Comandos de seleção (If..Elif..Else).
 Comandos de repetição (While/For).
 Comandos de controle de fluxo (continue/break).
 Formatação de Strings.
+Gerando números aleatórios.
+Entradas do usuário alteram o código.
+Controle de pontuação em um jogo.
+Criando e chamando uma função.
+Diferenciando um arquivo executado de um importado.
+Diferença entre código interpretado e compilado.

@@ -1,8 +1,10 @@
+import random
+
 print("************************************")
 print("Bem vindo ao jogo de Adivinhação!")
 print("************************************")
 
-numero_secreto = 42
+numero_secreto = random.randint(1,100)
 total_de_tentativas = 3
 tentativa = 1
 
@@ -27,4 +29,4 @@ for tentativa in range(1, total_de_tentativas+1):
     elif(maior):
         print("Você errou! Você chutou para cima.")
 
-print("Fim do jogo")
+print("Fim do jogo. O número era ", numero_secreto)
