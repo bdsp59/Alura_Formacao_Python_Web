@@ -17,3 +17,6 @@ Controle de pontuação em um jogo.
 Criando e chamando uma função.
 Diferenciando um arquivo executado de um importado.
 Diferença entre código interpretado e compilado.
+
+## Python 3 parte 2
+Explicando tipo booleano e continuando o jogo de forca.
