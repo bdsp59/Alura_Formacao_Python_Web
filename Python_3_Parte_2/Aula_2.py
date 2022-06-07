@@ -16,7 +16,7 @@ def jogar_forca():
         #Apesar de existir a função find(), que verifica se o que está no () pertence a String, ele
         #apenas retorna a primeira ocorrência do elemento. Como precisamos de todos, criamos esse for.
         for letra in palavra_secreta:
-            if(chute.upper() == letra.upper()):
+            if(chute.upper() == letra.upper()):#Vamos sempre comparar letras maiúsculas para evitar erros.
                 print("A letra {} está na posição {}".format(chute, index))
             index += 1
 

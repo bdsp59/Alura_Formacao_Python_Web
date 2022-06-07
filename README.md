@@ -21,3 +21,4 @@ Diferença entre código interpretado e compilado.
 ## Python 3 parte 2
 Explicando tipo booleano e continuando o jogo de forca.
 Manipulação de Strings.
+Criando e manipulando listas em python.
