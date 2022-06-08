@@ -22,3 +22,9 @@ Diferença entre código interpretado e compilado.
 Explicando tipo booleano e continuando o jogo de forca.
 Manipulação de Strings.
 Criando e manipulando listas em python.
+Tuplas em python.
+Introdução a estruturas de dados Set e Dictionary.
+Jogo de forca simples.
+Explicando e criando List Comprehension.
+Leitura e Escrita em arquivos.
+Sintaxe With.
