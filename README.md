@@ -28,3 +28,4 @@ Jogo de forca simples.
 Explicando e criando List Comprehension.
 Leitura e Escrita em arquivos.
 Sintaxe With.
+Separando código em função.
