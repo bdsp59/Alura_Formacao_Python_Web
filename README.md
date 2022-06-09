@@ -28,4 +28,14 @@ Jogo de forca simples.
 Explicando e criando List Comprehension.
 Leitura e Escrita em arquivos.
 Sintaxe With.
-Separando código em função.
+Separando código em funções.
+Refatorando o código e deixando mais organizado e bonito.
+Parâmetros opcionais e nomeados.
+
+## Artigo - Trabalhando com precisão em números decimais
+Se trabalharmos com o float no python para lidar com valores monetários, provavelmente teremos um erro grave. O fato de o computador trabalhar com binários, o que leva a ele não ser capaz de representar com precisão exata certas frações. Fazendo com que esses valores sejam arredondados para o mais próximo que se encaixe na representação binário, o que representa um pequeno erro de precisão.
+Se pensarmos em questões monetárias, poderíamos ter a possibilidade de usar apenas inteiros e como 1 real = 100 centavos, poderiamos salvar como 100 e depois dividir por 100 para representar no formato de real. O que elimina o problema de precisão.
+Mas apesar da solução acima parecer uma boa ideia, existe a questão de existirem países que não trabalham com a conversão de 100, mas com 1000 ou até outros tipos. Então essa solução não funcionaria para certas moedas, sendo assim não resolveria o problema.
+Para resolver situações como essas, existe um tipo no Python que serve para lidar com valores quebrados, mas com exatidão. O 'Decimal', que é um tipo com precisão arbitrária. 
+
+## Python 3 Entendendo a Orientação a Objetos
