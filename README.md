@@ -39,3 +39,7 @@ Mas apesar da solução acima parecer uma boa ideia, existe a questão de existi
 Para resolver situações como essas, existe um tipo no Python que serve para lidar com valores quebrados, mas com exatidão. O 'Decimal', que é um tipo com precisão arbitrária. 
 
 ## Python 3 Entendendo a Orientação a Objetos
+Aprendendo sobre Orientação a Objetos e como funciona em Python.
+Dicionários.
+Encapsulamento de código.
+Diferença entre classe e objeto.
