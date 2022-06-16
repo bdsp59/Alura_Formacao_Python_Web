@@ -43,3 +43,7 @@ Aprendendo sobre Orientação a Objetos e como funciona em Python.
 Dicionários.
 Encapsulamento de código.
 Diferença entre classe e objeto.
+Funções construtoras.
+Endereço e referência a objetos. 
+Atributos de classe e como acessa-los.
+Criando e utilização métodos.
