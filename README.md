@@ -47,3 +47,7 @@ Funções construtoras.
 Endereço e referência a objetos. 
 Atributos de classe e como acessa-los.
 Criando e utilização métodos.
+Encapsulamento de atributos.
+Coesão do código.
+Getters e Setters.
+Propriedades.
