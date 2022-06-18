@@ -30,13 +30,14 @@ class Conta:
     def deposita(self, valor):
         self.__saldo += valor
 
-    def pode_sacar(self, valor_a_sacar):
+    #O método a seguir é um método privado, que somente será usado nessa classe, então temos que declarar com o "__".
+    def __pode_sacar(self, valor_a_sacar):
         valor_disponivel = self.__saldo + self.__limite
         return valor_a_sacar <= valor_disponivel
         
 
     def saca(self, valor):
-        if(self.pode_sacar(valor)):
+        if(self.__pode_sacar(valor)):
             self.__saldo -= valor
         else:
             print("O valor {} passou o limite.".format(valor))
@@ -53,12 +54,21 @@ class Conta:
     def get_saldo(self):
         return self.__saldo
 
+    def get_titular(self):
+        return self.__titular
+
+    #Os métodos estáticos são métodos que podem ser utilizados sem a necessidade de criar o objeto. São métodos da classe.
+    @staticmethod
+    def codigo_banco():
+        return "001"#Como o código do banco é fixo se estamos trabalhando na palicação do próprio banco, podemos deixar como estático.
+
+    @staticmethod
+    def codigos_bancos():
+        return {"BB":"001", "Caixa": "104", "Bradesco": "237"}
+
     @property
     def limite(self):
         return self.__limite
-
-    def get_titular(self):
-        return self.__titular
 
     #Também temos métodos para manipular esses atributos, os sets.
     @limite.setter

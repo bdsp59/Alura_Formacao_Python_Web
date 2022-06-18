@@ -51,3 +51,7 @@ Encapsulamento de atributos.
 Coesão do código.
 Getters e Setters.
 Propriedades.
+Métodos Estáticos.
+
+## Python 3 Avançando na Orientação a Objetos
+Relembrando sobre o que vimos em Python 3 Entendendo a Orientação a Objetos.
