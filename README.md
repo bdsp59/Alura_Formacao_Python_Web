@@ -55,3 +55,9 @@ Métodos Estáticos.
 
 ## Python 3 Avançando na Orientação a Objetos
 Relembrando sobre o que vimos em Python 3 Entendendo a Orientação a Objetos.
+Herança.
+Utilizando o método super().
+Polimorfismo e suas utilizações.
+Método __str__.
+Herança built-in.
+Vantagens e desvantagens de fazer herança.
