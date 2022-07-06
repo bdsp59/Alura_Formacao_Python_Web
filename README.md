@@ -61,3 +61,4 @@ Polimorfismo e suas utilizações.
 Método __str__.
 Herança built-in.
 Vantagens e desvantagens de fazer herança.
+Duck Typing.

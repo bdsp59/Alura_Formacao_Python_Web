@@ -3,6 +3,11 @@
 #do list. Mas agora a classe playlist tem muitas funções, restrições e elementos que nem mesmo sabemos
 #quais e não podemos mexer em tudo sem saber se vamos gerar erros, o que aumenta a complexidade 
 # do nosso código. Então o ideal seria poder usar essas funções diretamente e não fazer a herança.
+#Então nos utilizamos de outro conceito para conseguir montar a playlist da maneira que queremos, 
+#a herança é uma extensão, ou seja, a classe playlist é um List, mas outra opção que temos é
+#a composição, que é o que fizemos no código abaixo, nesse caso a playlist tem um List.
+#Essa ideia de não fazer a herança, mas apenas pegar os métodos que queremos de alguma classe e usar as 
+#suas funcionalidades é chamada de Duck Typing.
 
 class Programa:
     def __init__(self, nome, ano):
@@ -53,7 +58,7 @@ class Playlist():
         self._programas = programas
 
     #Como configuramos esse __getitem__ podemos ter algumas configurações iguais a do list já 
-    # configuradas. 
+    # configuradas. Pois torna essa classe interável
     def __getitem__(self, item):
         return self._programas[item]
 
@@ -90,3 +95,5 @@ for programa in playlist_fim_de_semana:
     print(programa)
 
 print(f'Tá ou não tá? {demolidor in playlist_fim_de_semana}')
+
+#
