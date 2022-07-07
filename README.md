@@ -62,3 +62,7 @@ Método __str__.
 Herança built-in.
 Vantagens e desvantagens de fazer herança.
 Duck Typing.
+Data Model.
+Classes abstratas(ABCs).
+Herança Múltipla.
+Mixin.

@@ -66,8 +66,9 @@ class Playlist():
     def listagem(self):
         return self._programas
 
-    @property
-    def tamanho(self):
+    #Tal qual adicionamos o método __getitem__ para tornar a nossa classe interável, aqui temos o método __len__ que 
+    #vai servir para tornar a nossa classe sized, ou seja, vai permitir que usemos a função len() diretamente na classe.
+    def __len__(self):
         return len(self._programas)
 
 vingadores = Filme("vingadores - guerra infinita", 2018, 160)
@@ -96,4 +97,4 @@ for programa in playlist_fim_de_semana:
 
 print(f'Tá ou não tá? {demolidor in playlist_fim_de_semana}')
 
-#
+#Python Data Model -> https://docs.python.org/3.9/reference/datamodel.html
