@@ -66,3 +66,6 @@ Data Model.
 Classes abstratas(ABCs).
 Herança Múltipla.
 Mixin.
+
+## String em Python: Extraindo informações de uma URL
+Estrutura e manipulação de URLs(Strings).
