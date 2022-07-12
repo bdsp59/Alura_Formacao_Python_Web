@@ -69,3 +69,7 @@ Mixin.
 
 ## String em Python: Extraindo informações de uma URL
 Estrutura e manipulação de URLs(Strings).
+Utilização do Raise.
+Expressões Regulares.
+Quantificadores e Intervalos.
+Utilizando RegEx (https://docs.python.org/pt-br/3/howto/regex.html#regex-howto).
