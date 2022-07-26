@@ -53,16 +53,15 @@ class ExtratorURL():
         return valor
 
 
-url = "http://bytebank.com/cambio?moedaOrigem=real&moedaDestino=dolar&quantidade=100"
+url = "bytebank.com/cambio?quantidade=100&moedaOrigem=real&moedaDestino=dolar"
 extrator_url = ExtratorURL(url)
-extrator_url_2 = ExtratorURL(url)
-print("O tamanho da URL é:", len(extrator_url))
-valor_quantidade = extrator_url.get_valor_parametro("quantidade")
-print(valor_quantidade)
-#Imprime o valor que determinamos dentro do __str__
-print(extrator_url)
 
-#Agora outro método a ver é o __eq__, que serve para comparar valores dos elementos na comparação '=='.
-#O método __eq__ verifica se os dois objetos estão apontado para o mesmo endereço. Mas nesse caso queremos que se o valor da
-#URL for igual, ele retorne como verdadeiro.
-print(extrator_url == extrator_url_2) #Se não implementarmos o __eq__ dentro do objeto, ele retorna como falso.
+VALOR_DOLAR = 5.50  # 1 dólar = 5.50 reais
+moeda_origem = extrator_url.get_valor_parametro("moedaOrigem")
+moeda_destino = extrator_url.get_valor_parametro("moedaDestino")
+quantidade = extrator_url.get_valor_parametro("quantidade")
+
+if moeda_origem == "dolar" and moeda_destino == "real":
+    print("Total Dólar em Real: R$", int(quantidade)*VALOR_DOLAR)
+elif moeda_origem == "real" and moeda_destino == "dolar":
+    print("Total Real em Dólar: $",int(quantidade)/VALOR_DOLAR)

@@ -73,3 +73,6 @@ Utilização do Raise.
 Expressões Regulares.
 Quantificadores e Intervalos.
 Utilizando RegEx (https://docs.python.org/pt-br/3/howto/regex.html#regex-howto).
+Método __len__.
+Método __eq__.
+Método __str__.
