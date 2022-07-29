@@ -76,3 +76,15 @@ Utilizando RegEx (https://docs.python.org/pt-br/3/howto/regex.html#regex-howto).
 Método __len__.
 Método __eq__.
 Método __str__.
+
+## Python Collections: Parte 1
+Listas e Tuplas.
+Métodos de listas e Tuplas.
+Problemas de listas mutáveis.
+Quando utilizar lista e tuplas.
+Misturando lista e tuplas em estruturas.
+Utilizando __eq__.
+Boas práticas de comparação entre objetos.
+Utilizando o enumerated.
+Desempacotar tuplas.
+Ordenação (Utilizando sorted ou .sort).
