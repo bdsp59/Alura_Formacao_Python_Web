@@ -88,3 +88,6 @@ Boas práticas de comparação entre objetos.
 Utilizando o enumerated.
 Desempacotar tuplas.
 Ordenação (Utilizando sorted ou .sort).
+Ordenação de objeto próprio.
+Utilizando o __lt__.
+Utilização do attrgetter.
