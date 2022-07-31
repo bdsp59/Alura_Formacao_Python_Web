@@ -58,3 +58,7 @@ for conta in sorted(contas):
     print(conta)
 
 print(conta_da_daniela <= conta_do_guilherme)
+'''
+Se tentarmos utilizar o '<=', mesmo já tento implementado o __lt__ e o __eq__, ele não pode atribuir a igualdade por si
+só. Temos que fazer uso de outra 
+'''
