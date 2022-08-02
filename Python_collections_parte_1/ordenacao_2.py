@@ -1,6 +1,8 @@
+from functools import total_ordering
 from operator import attrgetter
 
 
+@total_ordering
 class ContaSalario:
     def __init__(self, codigo):
         self._codigo = codigo
@@ -60,5 +62,6 @@ for conta in sorted(contas):
 print(conta_da_daniela <= conta_do_guilherme)
 '''
 Se tentarmos utilizar o '<=', mesmo já tento implementado o __lt__ e o __eq__, ele não pode atribuir a igualdade por si
-só. Temos que fazer uso de outra 
+só. Temos que fazer uso de outra propriedade do python, a total_ordering. Essa propriedade é reponsável por fazer com que 
+a classe, tendo as __eq__ e __lt__ implementadas, possa fazer qualquer operação de igualdade.
 '''

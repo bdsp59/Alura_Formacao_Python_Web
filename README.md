@@ -91,3 +91,13 @@ Ordenação (Utilizando sorted ou .sort).
 Ordenação de objeto próprio.
 Utilizando o __lt__.
 Utilização do attrgetter.
+Utilizando o total_ordering.
+
+## Python Collections: Parte 2
+Conjuntos.
+Funções e operações de conjuntos.
+Congelar conjuntos (frozenset).
+Dicionários.
+Funções e operações de conjuntos.
+DefaultDict e Counter.
+Contagem de letras em texto.
