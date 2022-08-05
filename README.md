@@ -101,3 +101,8 @@ Dicionários.
 Funções e operações de conjuntos.
 DefaultDict e Counter.
 Contagem de letras em texto.
+
+## Python Brasil: Validação de dados no padrão nacional
+Validação de CPF.
+Utilizand o PyPi (https://pypi.org/).
+Importando a biblioteca de validação de CPFs.
