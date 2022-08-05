@@ -106,3 +106,6 @@ Contagem de letras em texto.
 Validação de CPF.
 Utilizand o PyPi (https://pypi.org/).
 Importando a biblioteca de validação de CPFs.
+Classe factory.
+Como funciona e como utilizar a classe factory.
+Utilizando Regex. (https://www.w3schools.com/python/python_regex.asp)
