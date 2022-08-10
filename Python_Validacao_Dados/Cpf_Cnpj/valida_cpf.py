@@ -1,4 +1,4 @@
-from cpf_cnpj import Documento
+from Python_Validacao_Dados.Cpf_Cnpj.cpf_cnpj import Documento
 
 cpf = "14669608762"
 

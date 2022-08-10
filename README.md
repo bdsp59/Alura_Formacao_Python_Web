@@ -109,3 +109,8 @@ Importando a biblioteca de validação de CPFs.
 Classe factory.
 Como funciona e como utilizar a classe factory.
 Utilizando Regex. (https://www.w3schools.com/python/python_regex.asp)
+Utilizando DateTime e as suas funcionalidades. (https://docs.python.org/3/library/datetime.html)
+Utilizando o DataModel. (https://docs.python.org/3/reference/datamodel.html)
+Utilizando o timedelta.
+Acessando APIs, utilizando o request. 
+Testando API do ViaCep. (https://viacep.com.br/)
